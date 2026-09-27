@@ -5,11 +5,11 @@ int main()
  char mayor[50];
  int population;
  printf("Municipal Financial Management System\n\n");
- printf("\nWelcome to Winhoek Municipality);
+ printf("\nWelcome to Winhoek Municipality\n");
  printf("Enter Municipality Name: ");
- scanf("%49s", municipality);
+ scanf("%s", municipality);
  printf("Enter Mayor: ");
- scanf("%49s", mayor);
+ scanf("%s", mayor);
  printf("Enter Population: ");
  scanf("%d", &population);
  printf("\n---------------------------------\n");
